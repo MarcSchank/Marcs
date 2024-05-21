@@ -1,0 +1,517 @@
+`
+### WordPress Environment ###
+
+WordPress address (URL): https://www.marschanmotorsports.com
+Site address (URL): https://www.marschanmotorsports.com
+WC Version: 8.9.0
+REST API Version: ✔ 8.9.0
+Action Scheduler Version: ✔ 3.7.4
+Log Directory Writable: ✔
+WP Version: 6.5.3
+WP Multisite: –
+WP Memory Limit: 1 GB
+WP Debug Mode: –
+WP Cron: ✔
+Language: en_US
+External object cache: –
+
+### Server Environment ###
+
+Server Info: Apache
+PHP Version: 7.4.33
+PHP Post Max Size: 100 MB
+PHP Time Limit: 30
+PHP Max Input Vars: 1000
+cURL Version: 7.61.1
+OpenSSL/1.1.1k
+
+SUHOSIN Installed: –
+MySQL Version: 5.5.5-10.3.39-MariaDB
+Max Upload Size: 100 MB
+Default Timezone is UTC: ✔
+fsockopen/cURL: ✔
+SoapClient: ✔
+DOMDocument: ✔
+GZip: ✔
+Multibyte String: ✔
+Remote Post: ✔
+Remote Get: ✔
+
+### Database ###
+
+WC Database Version: 8.8.3
+WC Database Prefix: mms_
+Total Database Size: 215.18MB
+Database Data Size: 185.28MB
+Database Index Size: 29.90MB
+mms_woocommerce_sessions: Data: 72.62MB + Index: 1.63MB + Engine MyISAM
+mms_woocommerce_api_keys: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_woocommerce_attribute_taxonomies: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_woocommerce_downloadable_product_permissions: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_woocommerce_order_items: Data: 0.35MB + Index: 0.21MB + Engine MyISAM
+mms_woocommerce_order_itemmeta: Data: 2.60MB + Index: 1.68MB + Engine MyISAM
+mms_woocommerce_tax_rates: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+mms_woocommerce_tax_rate_locations: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_woocommerce_shipping_zones: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_woocommerce_shipping_zone_locations: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_woocommerce_shipping_zone_methods: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_woocommerce_payment_tokens: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_woocommerce_payment_tokenmeta: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_woocommerce_log: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_actionscheduler_actions: Data: 2.55MB + Index: 0.82MB + Engine MyISAM
+mms_actionscheduler_claims: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_actionscheduler_groups: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+mms_actionscheduler_logs: Data: 1.41MB + Index: 0.98MB + Engine MyISAM
+mms_alg_wc_ev_guest_verify: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_aws_cache: Data: 0.45MB + Index: 0.00MB + Engine InnoDB
+mms_aws_index: Data: 9.05MB + Index: 4.28MB + Engine InnoDB
+mms_cartflows_ca_cart_abandonment: Data: 0.11MB + Index: 0.02MB + Engine InnoDB
+mms_cartflows_ca_email_history: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+mms_cartflows_ca_email_templates: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_cartflows_ca_email_templates_meta: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_check_email_log: Data: 3.52MB + Index: 0.00MB + Engine InnoDB
+mms_commentmeta: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+mms_comments: Data: 1.75MB + Index: 0.74MB + Engine MyISAM
+mms_db7_forms: Data: 1.52MB + Index: 0.00MB + Engine InnoDB
+mms_doofinder_update_on_save: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_emd_sessions: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_eopa_global_rule_table: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_eopa_poptions_table: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_eopa_rowoption_table: Data: 0.06MB + Index: 0.02MB + Engine InnoDB
+mms_eopa_temp_table: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_es_deliverreport: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_es_emaillist: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_es_notification: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_es_sentdetails: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_es_subscriber_ips: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_eum_logs: Data: 0.19MB + Index: 0.00MB + Engine InnoDB
+mms_icwp_wpsf_at_logs: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_icwp_wpsf_at_meta: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_icwp_wpsf_botsignal: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_icwp_wpsf_crowdsec_signals: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_icwp_wpsf_event: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_icwp_wpsf_ips: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_icwp_wpsf_ip_rules: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_icwp_wpsf_req_logs: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+mms_icwp_wpsf_resultitems: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_icwp_wpsf_rules: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_icwp_wpsf_scans: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_icwp_wpsf_snapshots: Data: 0.06MB + Index: 0.00MB + Engine InnoDB
+mms_icwp_wpsf_user_meta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+mms_ig_actions: Data: 0.06MB + Index: 0.11MB + Engine InnoDB
+mms_ig_blocked_emails: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_ig_campaigns: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+mms_ig_contactmeta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+mms_ig_contacts: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+mms_ig_contacts_ips: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_ig_contact_meta: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_ig_forms: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_ig_links: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+mms_ig_lists: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_ig_lists_contacts: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_ig_mailing_queue: Data: 0.06MB + Index: 0.02MB + Engine InnoDB
+mms_ig_queue: Data: 0.02MB + Index: 0.13MB + Engine InnoDB
+mms_ig_sending_queue: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_ig_temp_import: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_ig_unsubscribe_feedback: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_ig_wc_cart: Data: 0.02MB + Index: 0.08MB + Engine InnoDB
+mms_ig_wc_guests: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+mms_ig_workflows: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_ig_workflows_queue: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_jetpack_sync_queue: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+mms_links: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_mailchimp_carts: Data: 0.28MB + Index: 0.00MB + Engine InnoDB
+mms_mailchimp_jobs: Data: 11.52MB + Index: 0.00MB + Engine InnoDB
+mms_mclean_refs: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_mclean_scan: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_options: Data: 8.53MB + Index: 0.71MB + Engine MyISAM
+mms_pimwick_gift_card: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_pimwick_gift_card_activity: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_postmeta: Data: 20.92MB + Index: 11.76MB + Engine MyISAM
+mms_posts: Data: 7.04MB + Index: 1.43MB + Engine MyISAM
+mms_revslider_css: Data: 0.09MB + Index: 0.01MB + Engine MyISAM
+mms_revslider_css_bkp: Data: 0.09MB + Index: 0.00MB + Engine MyISAM
+mms_revslider_layer_animations: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_revslider_layer_animations_bkp: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_revslider_navigations: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_revslider_navigations_bkp: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_revslider_sliders: Data: 0.01MB + Index: 0.00MB + Engine MyISAM
+mms_revslider_sliders_bkp: Data: 0.01MB + Index: 0.00MB + Engine MyISAM
+mms_revslider_slides: Data: 0.03MB + Index: 0.00MB + Engine MyISAM
+mms_revslider_slides_bkp: Data: 0.07MB + Index: 0.00MB + Engine MyISAM
+mms_revslider_static_slides: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_revslider_static_slides_bkp: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_sbi_instagram_feeds_posts: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_sbi_instagram_posts: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_shopmagic_automation_outcome: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_shopmagic_automation_outcome_logs: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_shopmagic_guest: Data: 0.09MB + Index: 0.00MB + Engine InnoDB
+mms_shopmagic_guest_meta: Data: 1.52MB + Index: 0.19MB + Engine InnoDB
+mms_shopmagic_marketing_lists: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_shopmagic_optin_email: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_shopmagic_tracked_emails: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+mms_shopmagic_tracked_emails_clicks: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_termmeta: Data: 0.18MB + Index: 0.04MB + Engine MyISAM
+mms_terms: Data: 0.02MB + Index: 0.05MB + Engine MyISAM
+mms_term_relationships: Data: 0.14MB + Index: 0.32MB + Engine MyISAM
+mms_term_taxonomy: Data: 0.03MB + Index: 0.03MB + Engine MyISAM
+mms_tinvwl_analytics: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_tinvwl_items: Data: 0.20MB + Index: 0.01MB + Engine MyISAM
+mms_tinvwl_lists: Data: 0.02MB + Index: 0.01MB + Engine MyISAM
+mms_tm_taskmeta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+mms_tm_tasks: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_totalsoft_galleryv_dbt: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_totalsoft_galleryv_dbt_1: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_totalsoft_galleryv_dbt_2: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_totalsoft_galleryv_dbt_3: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_totalsoft_galleryv_dbt_4: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_totalsoft_galleryv_id: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_totalsoft_galleryv_manager: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_totalsoft_galleryv_videos: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_totalsoft_new_plugin: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_usermeta: Data: 1.92MB + Index: 0.49MB + Engine MyISAM
+mms_users: Data: 0.04MB + Index: 0.04MB + Engine MyISAM
+mms_wc_admin_notes: Data: 0.01MB + Index: 0.00MB + Engine MyISAM
+mms_wc_admin_note_actions: Data: 0.01MB + Index: 0.00MB + Engine MyISAM
+mms_wc_category_lookup: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_wc_customer_lookup: Data: 0.12MB + Index: 0.12MB + Engine MyISAM
+mms_wc_download_log: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_wc_orders: Data: 0.02MB + Index: 0.11MB + Engine InnoDB
+mms_wc_orders_meta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+mms_wc_order_addresses: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+mms_wc_order_coupon_lookup: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+mms_wc_order_operational_data: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+mms_wc_order_product_lookup: Data: 0.29MB + Index: 0.29MB + Engine MyISAM
+mms_wc_order_stats: Data: 0.16MB + Index: 0.10MB + Engine MyISAM
+mms_wc_order_tax_lookup: Data: 0.01MB + Index: 0.02MB + Engine MyISAM
+mms_wc_product_attributes_lookup: Data: 0.44MB + Index: 0.27MB + Engine InnoDB
+mms_wc_product_download_directories: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_wc_product_meta_lookup: Data: 1.52MB + Index: 0.98MB + Engine InnoDB
+mms_wc_rate_limits: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_wc_reserved_stock: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_wc_tax_rate_classes: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_wc_webhooks: Data: 0.00MB + Index: 0.00MB + Engine MyISAM
+mms_wfblockediplog: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_wfblocks7: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+mms_wfconfig: Data: 2.27MB + Index: 0.00MB + Engine InnoDB
+mms_wfcrawlers: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_wffilechanges: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_wffilemods: Data: 11.55MB + Index: 0.00MB + Engine InnoDB
+mms_wfhits: Data: 1.02MB + Index: 0.08MB + Engine InnoDB
+mms_wfhoover: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_wfissues: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+mms_wfknownfilelist: Data: 5.52MB + Index: 0.00MB + Engine InnoDB
+mms_wflivetraffichuman: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_wflocs: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_wflogins: Data: 0.34MB + Index: 0.16MB + Engine InnoDB
+mms_wfls_2fa_secrets: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+mms_wfls_role_counts: Data: 0.00MB + Index: 0.00MB + Engine MEMORY
+mms_wfls_settings: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_wfnotifications: Data: 0.09MB + Index: 0.00MB + Engine InnoDB
+mms_wfpendingissues: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+mms_wfreversecache: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_wfsecurityevents: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_wfsnipcache: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+mms_wfstatus: Data: 0.13MB + Index: 0.11MB + Engine InnoDB
+mms_wftrafficrates: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_wfwaffailures: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_wpc_accesslocks: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_wpc_login_fails: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_wpml_mails: Data: 9.84MB + Index: 0.02MB + Engine MyISAM
+mms_wpsmtp_logs: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+mms_yoast_indexable: Data: 0.63MB + Index: 0.14MB + Engine MyISAM
+mms_yoast_indexable_hierarchy: Data: 0.05MB + Index: 0.15MB + Engine MyISAM
+mms_yoast_migrations: Data: 0.00MB + Index: 0.01MB + Engine MyISAM
+mms_yoast_primary_term: Data: 0.06MB + Index: 0.08MB + Engine MyISAM
+mms_yoast_seo_links: Data: 0.16MB + Index: 0.09MB + Engine InnoDB
+mms_yoast_seo_meta: Data: 0.11MB + Index: 0.00MB + Engine InnoDB
+
+### Post Type Counts ###
+
+attachment: 2224
+custom_css: 2
+emd_form: 1
+emd_video: 2
+envira: 2
+es_template: 2
+ign_supplier_notices: 1
+logoshowcase: 15
+nav_menu_item: 39
+oembed_cache: 5
+our_brands: 47
+our_partners: 6
+page: 53
+post: 43
+product: 679
+product_variation: 4530
+revision: 1162
+shop_coupon: 77
+shop_order: 1832
+shop_order_refund: 7
+shopmagic_automation: 1
+wafs: 1
+wp_font_face: 33
+wp_font_family: 12
+wpcf7_contact_form: 2
+
+### Security ###
+
+Secure connection (HTTPS): ✔
+Hide errors from visitors: ✔
+
+### Active Plugins (42) ###
+
+Advanced Google reCAPTCHA: by WebFactory Ltd – 1.21
+Advanced Woo Search: by ILLID – 3.07
+Akismet Anti-spam: Spam Protection: by Automattic - Anti-spam Team – 5.3.2
+Check & Log Email: by checkemail – 1.0.11
+Classic Editor: by WordPress Contributors – 1.6.3
+Contact Form 7: by Takayuki Miyoshi – 5.9.5
+Contact Form CFDB7: by Arshid – 1.2.7
+Availability datepicker - InputWP: by InputWP – 2.3
+Disable Comments: by WPDeveloper – 2.4.6
+Doofinder WP & WooCommerce Search: by Doofinder – 2.2.21
+Envira Gallery Lite: by Envira Gallery Team – 1.8.11
+Gmail SMTP: by naa986 – 1.2.3.12
+Site Kit by Google: by Google – 1.127.0
+Easy HTTPS (SSL) Redirection: by Tips and Tricks HQ – 1.9.2
+IgniteWoo Updater: by IgniteWoo.com – 3.0.2 – Network enabled
+Jetpack: by Automattic – 13.4.3
+WPBakery Page Builder: by Michael M - WPBakery.com – 6.1
+Mailchimp for WooCommerce: by Mailchimp – 4.0.2
+PDF Embedder: by PDF Embedder – 4.7.1
+PW WooCommerce Bulk Edit: by Pimwick
+LLC – 2.124
+
+PW WooCommerce Exclude Free Shipping: by Pimwick
+LLC – 1.36
+
+PW WooCommerce Gift Cards: by Pimwick
+LLC – 1.254
+
+Slider Revolution: by ThemePunch – 6.6.20
+ShopMagic for WooCommerce: by WP Desk – 4.2.14
+Simple 301 Redirects: by WPDeveloper – 2.0.9
+Easy Updates Manager: by Easy Updates Manager Team – 9.0.17
+TI WooCommerce Wishlist: by TemplateInvaders – 2.8.2
+WooCommerce Order Test - WP Fix It: by WP Fix It – 2.2
+WooCommerce.com Update Manager: by Automattic – 1.0.2
+WooCommerce Brands: by WooCommerce – 1.6.68
+Braintree for WooCommerce Payment Gateway: by WooCommerce – 3.1.5
+WooCommerce PayPal Pro (Classic and PayFlow Editions) Gateway: by WooCommerce – 4.5.1
+WooCommerce Stripe Gateway: by WooCommerce – 8.2.0
+WP Menu Cart: by WP Overnight – 2.14.3
+WooCommerce PayPal Payments: by WooCommerce – 2.7.0
+WooCommerce: by Automattic – 8.9.0
+Extendons: WooCommerce Product Add-ons - Custom Product Options Plugin: by Extendons – 3.0.3
+Wordfence Security: by Wordfence – 7.11.5
+Yoast SEO: by Team Yoast – 22.7
+WP Test Email: by Boopathi Rajan – 1.1.6
+ReCaptcha v2 for Contact Form 7: by IQComputing – 1.4.6
+Video Gallery & Management for YouTube Videos and WordPress: by eMarket Design – 3.4.0
+
+### Inactive Plugins (0) ###
+
+
+### Must Use Plugins (1) ###
+
+plugin-filter-by-page.php: by  –
+
+### Settings ###
+
+API Enabled: –
+Force SSL: –
+Currency: USD ($)
+Currency Position: left
+Thousand Separator: ,
+Decimal Separator: .
+Number of Decimals: 2
+Taxonomies: Product Types: external (external)
+gift-card (gift-card)
+grouped (grouped)
+pw gift card (pw-gift-card)
+simple (simple)
+variable (variable)
+
+Taxonomies: Product Visibility: exclude-from-catalog (exclude-from-catalog)
+exclude-from-search (exclude-from-search)
+featured (featured)
+outofstock (outofstock)
+rated-1 (rated-1)
+rated-2 (rated-2)
+rated-3 (rated-3)
+rated-4 (rated-4)
+rated-5 (rated-5)
+visible (visible)
+
+Connected to WooCommerce.com: ✔
+Enforce Approved Product Download Directories: –
+HPOS feature enabled: –
+Order datastore: WC_Order_Data_Store_CPT
+HPOS data sync enabled: –
+
+### Logging ###
+
+Enabled: ✔
+Handler: Automattic\WooCommerce\Internal\Admin\Logging\LogHandlerFileV2
+Retention period: 30 days
+Level threshold: –
+Log directory size: 269 KB
+
+### WC Pages ###
+
+Shop base: #222 - /products/
+Cart: #223 - /cart/
+Checkout: #224 - /checkout/
+My account: #225 - /my-account/
+Terms and conditions: #89 - /privacy-policy/
+
+### Theme ###
+
+Name: MarschanMotorSports Child Theme
+Version: 1.0.0
+Author URL: https://cyberchimps.com/
+Child Theme: ✔
+Parent Theme Name: MarschanMotorSports
+Parent Theme Version: 3.16.2
+Parent Theme Author URL: http://cyberchimps.com
+WooCommerce Support: ✔
+
+### Templates ###
+
+Overrides: MarschanMotorSports-child/woocommerce/archive-product.php version 3.4.0 is out of date. The core version is 8.6.0
+MarschanMotorSports-child/woocommerce/cart/cart.php version 3.5.0 is out of date. The core version is 7.9.0
+MarschanMotorSports-child/woocommerce/content-product.php
+MarschanMotorSports-child/woocommerce/content-single-product.php
+MarschanMotorSports-child/woocommerce/global/breadcrumb.php
+MarschanMotorSports-child/woocommerce/global/form-login.php version 3.6.0 is out of date. The core version is 7.0.1
+MarschanMotorSports-child/woocommerce/global/quantity-input.php version 3.6.0 is out of date. The core version is 7.8.0
+MarschanMotorSports-child/woocommerce/global/sidebar.php
+MarschanMotorSports-child/woocommerce/global/wrapper-end.php
+MarschanMotorSports-child/woocommerce/global/wrapper-start.php
+MarschanMotorSports-child/woocommerce/loop/add-to-cart.php
+MarschanMotorSports-child/woocommerce/loop/loop-end.php
+MarschanMotorSports-child/woocommerce/loop/loop-start.php
+MarschanMotorSports-child/woocommerce/loop/no-products-found.php version 2.0.0 is out of date. The core version is 7.8.0
+MarschanMotorSports-child/woocommerce/loop/pagination.php
+MarschanMotorSports-child/woocommerce/loop/price.php
+MarschanMotorSports-child/woocommerce/loop/result-count.php version 3.3.0 is out of date. The core version is 3.7.0
+MarschanMotorSports-child/woocommerce/loop/sale-flash.php
+MarschanMotorSports-child/woocommerce/product-searchform.php version 3.3.0 is out of date. The core version is 7.0.1
+MarschanMotorSports-child/woocommerce/single-product/add-to-cart/external.php version 3.4.0 is out of date. The core version is 7.0.1
+MarschanMotorSports-child/woocommerce/single-product/add-to-cart/grouped.php version 3.4.0 is out of date. The core version is 7.0.1
+MarschanMotorSports-child/woocommerce/single-product/add-to-cart/simple.php version 3.4.0 is out of date. The core version is 7.0.1
+MarschanMotorSports-child/woocommerce/single-product/meta.php
+MarschanMotorSports-child/woocommerce/single-product/price.php
+MarschanMotorSports-child/woocommerce/single-product/product-attributes.php
+MarschanMotorSports-child/woocommerce/single-product/related.php version 3.0.0 is out of date. The core version is 3.9.0
+MarschanMotorSports-child/woocommerce/single-product/sale-flash.php
+MarschanMotorSports-child/woocommerce/single-product/short-description.php
+MarschanMotorSports-child/woocommerce/single-product.php
+MarschanMotorSports-child/woocommerce/content-product_cat.php version 2.6.1 is out of date. The core version is 4.7.0
+MarschanMotorSports-child/woocommerce/taxonomy-product_cat.php version 1.6.4 is out of date. The core version is 4.7.0
+MarschanMotorSports-child/woocommerce/taxonomy-product_tag.php version 1.6.4 is out of date. The core version is 4.7.0
+
+Outdated Templates: ❌
+					
+					
+						Learn how to update
+
+### WooCommerce PayPal Payments ###
+
+Onboarded: ✔
+Shop country code: US
+WooCommerce currency supported: ✔
+Advanced Card Processing available in country: ✔
+Pay Later messaging available in country: ✔
+Webhook status: –
+PayPal Vault enabled: –
+ACDC Vault enabled: –
+Logging enabled: ✔
+Reference Transactions: ✔
+Used PayPal Checkout plugin: ✔
+Subscriptions Mode: Disabled
+
+### Admin ###
+
+Enabled Features: activity-panels
+analytics
+product-block-editor
+coupons
+core-profiler
+customize-store
+customer-effort-score-tracks
+import-products-task
+experimental-fashion-sample-products
+shipping-smart-defaults
+shipping-setting-tour
+homescreen
+marketing
+mobile-app-banner
+navigation
+onboarding
+onboarding-tasks
+product-variation-management
+product-virtual-downloadable
+product-external-affiliate
+product-grouped
+product-linked
+product-pre-publish-modal
+product-custom-fields
+remote-inbox-notifications
+remote-free-extensions
+payment-gateway-suggestions
+shipping-label-banner
+subscriptions
+store-alerts
+transient-notices
+woo-mobile-welcome
+wc-pay-promotion
+wc-pay-welcome-page
+
+Disabled Features: minified-js
+new-product-management-experience
+settings
+async-product-editor-category-field
+launch-your-store
+
+Daily Cron: ✔ Next scheduled: 2024-05-22 11:29:22 -04:00
+Options: ✔
+Notes: 12
+Onboarding: completed
+
+### TI WooCommerce Wishlist Templates ###
+
+Overrides: –
+
+### Braintree (Credit Card) ###
+
+Environment: Production
+Tokenization Enabled: –
+Debug Mode: Off
+
+### Braintree (PayPal) ###
+
+Environment: Production
+Tokenization Enabled: –
+Debug Mode: Off
+
+### Action Scheduler ###
+
+Complete: 813
+Oldest: 2024-04-20 19:40:32 -0400
+Newest: 2024-05-21 13:26:47 -0400
+
+Failed: 2,827
+Oldest: 2023-03-23 16:38:12 -0400
+Newest: 2024-05-13 10:09:05 -0400
+
+Pending: 3
+Oldest: 2024-05-21 20:36:27 -0400
+Newest: 2024-05-23 15:21:41 -0400
+
+
+### Status report information ###
+
+Generated at: 2024-05-21 13:58:11 -04:00
+`
